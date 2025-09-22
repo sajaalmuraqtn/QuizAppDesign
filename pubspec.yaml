@@ -10,7 +10,13 @@ dependencies:
   flutter:
     sdk: flutter
   rflutter_alert: ^2.0.7
+  flutter_launcher_icons: ^0.14.4
 
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.webp"  
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -20,3 +26,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+
